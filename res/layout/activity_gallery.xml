@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+              <org.lee.pulltorefresh.library.View.StaggeredGridView
+    	xmlns:staggered="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/staggeredGridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        staggered:drawSelectorOnTop="true"
+        staggered:numColumns="1" />
+    -->
+
+    <ListView
+        android:id="@+id/staggeredGridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/activity_gallery_toastbar" />
+
+</FrameLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/ic_image_loading"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="4dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:padding="6dip"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="#666666"
+            android:textStyle="italic" />
+
+        <org.lee.android.volley.INetworkImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@color/gray"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/from_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_item_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="6dip"
+                android:text="查看更多..."
+                android:textColor="#666666"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/shoucang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_item_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="6dip"
+                android:text="收藏"
+                android:textColor="#666666"
+                android:textStyle="italic"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="0.5dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="6dip"
+                android:layout_marginTop="6dip"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_item_selector"
+                android:clickable="true"
+                android:drawableRight="@drawable/ic_menu_download"
+                android:gravity="center"
+                android:padding="6dip"
+                android:text="下载"
+                android:textColor="#666666"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="250dip"
+            android:orientation="vertical"
+            android:paddingBottom="6dip" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

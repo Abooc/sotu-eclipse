@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Home page -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="hot">热词:</string>
+    <!-- 预览 page -->
+    <string name="openfromUrl">"专业图片浏览器"</string>
+    <string name="back">"返回上一级"</string>
+    <string name="save_failed">"保存失败！"</string>
+    <string name="save_running">"正在保存&#8230;"</string>
+    <string name="save_successful">"已保存到手机相册！"</string>
+
+    <!-- 搜索 page -->
+    <string name="search">"搜图"</string>
+    <string name="search_title">"搜索图片"</string>
+    <string name="search_edit_hit">"搜美女/明星/地名/搞笑/任意图片&#8230;"</string>
+
+    <!-- 通知 page -->
+    <string name="activity_title">"通知"</string>
+    <string name="perform">"立即完成"</string>
+    <string name="localInstall">"本地安装"</string>
+    <string name="download_normal">"官方建议"</string>
+    <string name="open_googlepaly_update">"到Google play升级"</string>
+    <string name="open_googlepaly_pingfen">"到Google play评分"</string>
+    <string name="notify">"重要通知:"</string>
+    <string name="notify_content">"最新2.0版上线，全屏看高清图，图片保存到手机等，建议立即更新！ "</string>
+
+    <!-- error page -->
+    <string name="error_message">"无法加载数据。请检查你的网络链接。"</string>
+    <!-- 升级 page -->
+    <string name="update_now">"立即升级"</string>
+
+    <!-- MessageBar -->
+    <string name="message_current">"当前正查看第"</string>
+    <string name="message_unit">"张"</string>
+    <string name="message_not_see_header">"还有"</string>
+    <string name="message_not_see_footer">"张未查看照片！"</string>
+
+    <!-- SliddingMenu -->
+    <string name="comment">"写反馈意见"</string>
+    <string name="share">"推荐给朋友"</string>
+    <string name="exit">"退出程序"</string>
+
+    <!-- 提示 -->
+    <string name="watting">"请稍等&#8230;"</string>
+    <string name="input_not_null">"关键字不能为空！"</string>
+    <string name="toast_error">"发生错误了！"</string>
+    <string name="toast_copy_already">"已复制到粘贴板！"</string>
+    <string name="menu_clear_cache_success">"图片缓存已清空！"</string>
+    <string name="menu_clear_cache_failed">"请稍后再试！"</string>
+
+    <!-- MainActivity 菜单 -->
+    <string name="menu_update">更新</string>
+    <string name="menu_update_label">有新的版本</string>
+    <string name="menu_adv">推荐</string>
+    <string name="menu_adv_label">给您推荐应用</string>
+    <string name="menu_switchShow">切换显示</string>
+    <string name="menu_switchShow_label">切换显示方式</string>
+    <string name="menu_search">"搜索图片"</string>
+    <string name="menu_account">"账户"</string>
+    <string name="menu_refresh">"刷新"</string>
+    <string name="menu_settings">"关于我们"</string>
+    <string name="menu_about">"关于"</string>
+    <string name="menu_licenses">"版权许可"</string>
+    <string name="menu_shareApk">"将此应用告诉朋友"</string>
+    <string name="menu_pinglun">"给应用打个评分"</string>
+    <string name="menu_share_title">"分享到"</string>
+    <string name="menu_share_footer">"分享自[搜搜看图]"</string>
+
+    <!-- PreviewActivity 菜单 -->
+    <string name="menu_love">喜欢</string>
+    <string name="menu_love_label">设置为喜欢</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_save_label">保存到手机</string>
+    <string name="menu_copyAddress">"复制图片地址"</string>
+    <string name="menu_share">分享此图</string>
+
+    <!-- 关于和许可 -->
+    <string name="about_msg">&lt;b>搜搜看图&lt;/b> 可以用来查看百度图片提供的海量图片，有美女，有帅哥，也有明星图片，壁纸，汽车，也有更多的搞笑图片，无论是节操掉地的，还是毁三观的，想看什么看什么。
+        这是基于互联网中免费开放给用户的图片数据做数据来源的软件，
+        该软件被许可运行在android系统平台，软件可供免费下载安装和使用，使用过程中所产生的互联网数据费用由使用者这承担。&lt;br>
+        注明：1.由于图片数据较大，使用中会产生大量网络数据流量，建议使用本地wifi网络浏览。&lt;br>
+      2.该软件中的图片数据全部来自于开放的互联网，如有侵权或对您有不利的请及时联系我们。&lt;br>
+      3.该软件中的图片有部分来自百度搜索，并无百度任何法律关系。&lt;br>&lt;br></string>
+    <string name="apache_license">&lt;b>百度图库 &lt;/b>&lt;br>
+        \u00A9 2014 WOOLOM&lt;br>
+        	[搜搜看图]是开源的互联网图片浏览软件，可供普通用户免费使用，也可供开发者免费学习研究。&lt;br>It is licensed under the Apache License Version 2.0.
+        &lt;br>&lt;br>&lt;b>SlidingMenu &lt;/b>&lt;br>
+		&lt;b>The Apache License Version 2.0&lt;/b>&lt;br>
+		You may obtain a copy of the License at&lt;br>
+		&lt;center>&lt;a href=\'http://www.apache.org/licenses/LICENSE-2.0\'>
+				"http://www.apache.org/licenses/LICENSE-2.0&lt;/a>&lt;/center>&lt;br>
+		Unless required by applicable law or agreed to in writing, 
+		software distributed under the License is distributed on an 
+		\'AS IS\' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, 
+		either express or implied. See the License for the specific 
+		language governing permissions and limitations under the License.</string>
+    <string name="no_email">Sorry, I couldn\'t find any e-mail apps on your phone</string>
+
+</resources>

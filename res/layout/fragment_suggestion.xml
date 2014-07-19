@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dip"
+        android:text="大家还看了："
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/GridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tag"
+        android:background="@color/gray"
+        android:gravity="center_horizontal"
+        android:numColumns="3" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_below="@id/tag"
+        android:gravity="center"
+        android:padding="4dip"
+        android:text="正在询问其他人..."
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/adsTag"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:layout_alignParentBottom="true"
+        android:background="#60CCCCCC"
+        android:drawableTop="@drawable/ic_ask"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dip"
+        android:text="咦？\n广告背面什么也没有，\n难道，\n好东西都藏在了广告里..."
+        android:textColor="#F0AAAAAA"
+        android:textStyle="italic"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_clear" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dip"
+            android:background="@drawable/ic_shadow_bottom" />
+
+        <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="IAB_MRECT"
+            ads:adUnitId="@string/google_AD_UNIT_ID"
+            ads:loadAdOnCreate="true"
+            android:clickable="true" />
+    </LinearLayout>
+
+</RelativeLayout>

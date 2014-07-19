@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#356FA8"
+        android:orientation="vertical" >
+
+        <include layout="@layout/woolom" />
+
+        <include layout="@layout/adwiew" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/process"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+    <include layout="@layout/browser_bottombar" />
+
+</RelativeLayout>

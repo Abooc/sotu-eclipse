@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#d0000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/exitText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/default_item_selector"
+        android:drawableLeft="@drawable/ic_backtohome"
+        android:gravity="center"
+        android:padding="12dip"
+        android:text="@string/exit"
+        android:textColor="@color/text_color_clickable_white_dark" />
+
+</LinearLayout>

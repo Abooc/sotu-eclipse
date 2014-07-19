@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <item name="Press" type="id">51</item>
+    <item name="banner00" type="id">0x60</item>
+    <item name="banner01" type="id">0x61</item>
+    <item name="banner02" type="id">0x62</item>
+    <item name="banner03" type="id">0x63</item>
+    <item name="banner04" type="id">0x64</item>
+
+    <!-- 主页面 ActionBar -->
+    <item name="actionbar_main_search" type="id">1009</item>
+    <item name="actionbar_main_adv" type="id">1007</item>
+    <item name="actionbar_main_update" type="id">1006</item>
+    <item name="actionbar_main_about_us" type="id">1001</item>
+    <item name="actionbar_main_shareApk" type="id">1002</item>
+    <item name="actionbar_main_refresh" type="id">1003</item>
+    <item name="actionbar_main_official" type="id">1008</item>
+    <item name="actionbar_main_pinglun" type="id">1010</item>
+
+    <!-- 看图页面 ActionBar -->
+    <item name="actionbar_preview_share_image" type="id">2001</item>
+    <item name="actionbar_preview_copyAddress" type="id">2002</item>
+    <item name="actionbar_preview_shareApk" type="id">2003</item>
+    <item name="actionbar_preview_refresh" type="id">2004</item>
+    <item name="actionbar_preview_save" type="id">2005</item>
+
+</resources>

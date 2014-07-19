@@ -1,0 +1,30 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:id="@+id/bannerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+
+        <include layout="@layout/activity_update_banner_item" />
+    </LinearLayout>
+
+</HorizontalScrollView>
