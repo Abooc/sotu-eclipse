@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.2.2">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/umeng_xp_banner_bg`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/umeng_xp_banner_bg&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_banner.xml"
+            line="57"
+            column="17"/>
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_banner.xml"
+            line="17"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/umeng_xp_appIcon0`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/umeng_xp_appIcon0&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_banner.xml"
+            line="66"
+            column="17"/>
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_banner.xml"
+            line="26"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/umeng_xp_flipper`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/umeng_xp_flipper&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_banner.xml"
+            line="75"
+            column="17"/>
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_banner.xml"
+            line="35"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/umeng_xp_detail0`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="            android:id=&quot;@+id/umeng_xp_detail0&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_download_dialog_landscape.xml"
+            line="37"
+            column="13"/>
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_download_dialog_landscape.xml"
+            line="30"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/umeng_xp_list`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="            &lt;GridView android:cacheColorHint=&quot;#00000000&quot; android:divider=&quot;#00000000&quot; android:dividerHeight=&quot;0dp&quot; android:focusable=&quot;true&quot; android:gravity=&quot;center&quot; android:horizontalSpacing=&quot;10dp&quot; android:id=&quot;@+id/umeng_xp_list&quot; android:layout_height=&quot;fill_parent&quot; android:layout_marginBottom=&quot;2dp&quot; android:layout_marginTop=&quot;8dp&quot; android:layout_width=&quot;fill_parent&quot; android:numColumns=&quot;3&quot; android:stretchMode=&quot;columnWidth&quot; android:verticalSpacing=&quot;5dp&quot;>"
+        errorLine2="                                                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_partners_banner.xml"
+            line="11"
+            column="197"/>
+        <location
+            file="/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/umeng_xp_partners_banner.xml"
+            line="6"
+            column="197"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- 错误页面 -->
+    <dimen name="error_page_woolom_address_text_size">10sp</dimen>
+
+
+    <!-- 频道订阅页面 -->
+    <dimen name="rss_channel_list_title_text_size">18sp</dimen>
+    <dimen name="rss_channel_list_title_padding">8dip</dimen>
+
+</resources>

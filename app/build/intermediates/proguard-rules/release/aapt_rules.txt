@@ -1,0 +1,80 @@
+# view res/layout/activity_photo_preview.xml #generated:7
+# view res/layout/activity_preview_drawer.xml #generated:11
+# view res/layout/activity_preview_frame.xml #generated:7
+# view res/layout/fragment_main.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:1
+# view res/layout/activity_preview_drawer.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/activity_home_banner_item.xml #generated:9
+-keep class com.android.volley.toolbox.NetworkImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.google.ads.AdActivity { <init>(...); }
+
+# view res/layout/adwiew.xml #generated:17
+# view res/layout/fragment_suggestion.xml #generated:69
+-keep class com.google.ads.AdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.umeng.common.net.DownloadingService { <init>(...); }
+
+# view res/layout/umeng_xp_large_gallery.xml #generated:12
+-keep class com.umeng.newxp.view.UGallery { <init>(...); }
+
+# view res/layout/umeng_xp_handler_gallery.xml #generated:6
+-keep class com.umeng.newxp.view.widget.SwipeView { <init>(...); }
+
+# view res/layout/umeng_xp_handler_gallery.xml #generated:12
+-keep class com.umeng.newxp.view.widget.SwipeViewPointer { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class org.lee.android.activity.AdvActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class org.lee.android.activity.AdvDomobActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class org.lee.android.activity.AdvUmengActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class org.lee.android.activity.BackgroundServices { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class org.lee.android.activity.BrowserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class org.lee.android.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class org.lee.android.activity.NotificationInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class org.lee.android.activity.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class org.lee.android.activity.UpdateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class org.lee.android.activity.UserConfigActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class org.lee.android.app.AppApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class org.lee.android.preview.P { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class org.lee.android.preview.PreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class org.lee.android.sdk.properties.AboutActivity { <init>(...); }
+
+# view res/layout/activity_gallery_item.xml #generated:31
+-keep class org.lee.android.volley.INetworkImageView { <init>(...); }
+
+# view res/layout/fragment_search.xml #generated:20
+-keep class org.lee.pulltorefresh.library.View.StaggeredGridView { <init>(...); }
+

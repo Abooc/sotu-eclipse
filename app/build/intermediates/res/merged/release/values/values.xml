@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preset_array_all">
+        <item>美女</item>
+        <item>搞笑</item>
+        <item>明星</item>
+        <item>壁纸</item>
+        <item>动漫</item>
+        <item>汽车</item>
+        <item>旅游</item>
+        <item>服饰</item>
+        <item>摄影</item>
+    </string-array>
+    <string-array name="preset_array_bizhi">
+        <item>全部</item>
+        <item>编辑推荐</item>
+        <item>情人节</item>
+        <item>lomo风格壁纸</item>
+        <item>国家地理</item>
+        <item>极简</item>
+        <item>苹果壁纸</item>
+    </string-array>
+    <string-array name="preset_array_dongman">
+        <item>全部</item>
+        <item>海贼王</item>
+        <item>火影忍者</item>
+        <item>冷先森漫画</item>
+        <item>日本漫画</item>
+        <item>动漫人物</item>
+        <item>后宫动漫</item>
+        <item>漫画</item>
+        <item>死神</item>
+        <item>二次元</item>
+        <item>妖精的尾巴</item>
+        <item>手办</item>
+        <item>名侦探柯南</item>
+        <item>宫崎骏</item>
+        <item>哆啦A梦</item>
+        <item>动漫美少女</item>
+        <item>动画</item>
+        <item>cosplay</item>
+        <item>古风</item>
+        <item>原画</item>
+        <item>手绘</item>
+        <item>犬夜叉</item>
+        <item>银魂</item>
+        <item>七龙珠</item>
+        <item>场景</item>
+        <item>神奇宝贝</item>
+        <item>魔兽世界</item>
+        <item>高达</item>
+        <item>圣斗士</item>
+        <item>生化危机</item>
+    </string-array>
+    <string-array name="preset_array_fushi">
+        <item>全部</item>
+        <!--
+             <item>早春新款</item>
+        <item>小西装</item>
+        <item>韩范</item>
+        <item>尖头鞋</item>
+        <item>轻薄外套</item>
+        <item>手表</item>
+        <item>发饰</item>
+        <item>单肩包</item>
+        <item>蕾丝</item>
+
+        -->
+    </string-array>
+    <string-array name="preset_array_gaoxiao">
+        <item>全部</item>
+        <item>百思不得姐</item>
+        <item>脑残对话</item>
+        <item>奇闻趣事</item>
+        <item>搞笑牛人</item>
+        <item>搞笑动物</item>
+        <item>熊孩子</item>
+        <item>暴走漫画</item>
+        <item>雷人恶搞</item>
+        <item>没品图</item>
+        <item>邪恶笑话</item>
+        <item>内涵图</item>
+        <item>神回复</item>
+        <item>屌丝专区</item>
+        <item>找节操</item>
+        <item>找亮点</item>
+        <item>霸气侧漏</item>
+        <item>2B青年</item>
+        <item>哈哈搞笑</item>
+        <item>搞笑漫画</item>
+        <item>错觉</item>
+        <item>猎奇</item>
+        <item>糗事</item>
+        <item>碉堡</item>
+        <item>喵星人</item>
+        <item>我和我的小伙伴都惊呆了！</item>
+    </string-array>
+    <string-array name="preset_array_lvyou">
+        <item>全部</item>
+        <item>香港</item>
+        <item>北京</item>
+        <item>西藏</item>
+        <item>云南</item>
+        <item>九寨沟</item>
+        <item>上海</item>
+        <item>台湾</item>
+        <item>丽江</item>
+        <item>张家界</item>
+        <item>杭州</item>
+        <item>鼓浪屿</item>
+        <item>乌镇</item>
+        <item>凤凰</item>
+        <item>桂林</item>
+        <item>黄山</item>
+        <item>青海湖</item>
+        <item>三亚</item>
+        <item>马尔代夫</item>
+        <item>日本</item>
+        <item>迪拜</item>
+        <item>法国</item>
+        <item>美国</item>
+        <item>瑞士</item>
+        <item>巴厘岛</item>
+        <item>德国</item>
+        <item>泰国</item>
+        <item>韩国</item>
+        <item>威尼斯</item>
+        <item>马来西亚</item>
+        <item>普吉岛</item>
+        <item>济州岛</item>
+    </string-array>
+    <string-array name="preset_array_meinv">
+        <item>全部</item>
+        <item>真人美女秀场</item>
+        <item>小清新</item>
+        <item>网络美女</item>
+        <item>宅男女神</item>
+        <item>诱惑</item>
+        <item>有沟必火</item>
+        <item>腐女</item>
+        <item>内衣</item>
+        <item>比基尼</item>
+        <item>美臀</item>
+    </string-array>
+    <string-array name="preset_array_mingxing">
+        <item>全部</item>
+        <item>杨幂</item>
+        <item>林志玲</item>
+        <item>刘诗诗</item>
+        <item>汤唯</item>
+        <item>Angelababy</item>
+        <item>钟汉良</item>
+        <item>吴奇隆</item>
+        <item>黄晓明</item>
+        <item>王力宏</item>
+        <item>全能星战</item>
+        <item>少女时代</item>
+        <item>张根硕</item>
+        <item>东方神起</item>
+        <item>韩庚</item>
+        <item>SHINee</item>
+        <item>刘亦菲</item>
+        <item>佟丽娅</item>
+        <item>唐嫣</item>
+        <item>柳岩</item>
+        <item>艾薇儿</item>
+        <item>金贤重</item>
+        <item>周杰伦</item>
+        <item>李孝利</item>
+        <item>孙俪</item>
+        <item>林心如</item>
+        <item>蔡依林</item>
+        <item>赵薇</item>
+        <item>宋茜</item>
+        <item>章子怡</item>
+        <item>霍思燕</item>
+        <item>王心凌</item>
+        <item>金泫雅</item>
+        <item>苗圃</item>
+        <item>林允儿</item>
+        <item>戚薇</item>
+        <item>何洁</item>
+        <item>4minute</item>
+        <item>权侑莉</item>
+        <item>宋慧乔</item>
+        <item>苍井空</item>
+        <item>官恩娜</item>
+        <item>刘羽琦</item>
+        <item>Hebe</item>
+        <item>张歆艺</item>
+        <item>古力娜扎</item>
+        <item>蔡卓妍</item>
+        <item>赵子琪</item>
+        <item>尹恩惠</item>
+        <item>桂纶镁</item>
+        <item>姚笛</item>
+        <item>张萌</item>
+        <item>梁静茹</item>
+        <item>张馨予</item>
+        <item>金泰熙</item>
+        <item>后藤真希</item>
+        <item>李玟</item>
+        <item>高圆圆</item>
+        <item>薛凯琪</item>
+        <item>赵奕欢</item>
+        <item>张雨绮</item>
+        <item>郑爽</item>
+        <item>伊能静</item>
+        <item>车晓</item>
+        <item>郑秀文</item>
+        <item>王祖贤</item>
+        <item>舒淇</item>
+        <item>金莎</item>
+        <item>周韦彤</item>
+        <item>孙燕姿</item>
+        <item>徐若瑄</item>
+        <item>黄圣依</item>
+        <item>钟欣桐</item>
+        <item>尚雯婕</item>
+        <item>张韶涵</item>
+        <item>陈意涵</item>
+        <item>甘婷婷</item>
+        <item>杨丞琳</item>
+        <item>佘诗曼</item>
+        <item>周慧敏</item>
+        <item>刘惜君</item>
+        <item>萧亚轩</item>
+        <item>王丽坤</item>
+        <item>陈嘉桦</item>
+        <item>刘若英</item>
+        <item>朴信惠</item>
+        <item>翁美玲</item>
+        <item>阿兰</item>
+        <item>萧蔷</item>
+        <item>刘雨欣</item>
+        <item>范冰冰</item>
+        <item>林青霞</item>
+        <item>张嘉倪</item>
+        <item>姚晨</item>
+        <item>徐熙媛</item>
+        <item>陈好</item>
+        <item>董洁</item>
+        <item>陈妍希</item>
+        <item>赵雅芝</item>
+        <item>刘涛</item>
+        <item>郑秀妍</item>
+        <item>杉原杏璃</item>
+        <item>赵丽颖</item>
+        <item>马苏</item>
+        <item>陈静</item>
+        <item>李小璐</item>
+        <item>by2</item>
+        <item>张含韵</item>
+        <item>张柏芝</item>
+        <item>周迅</item>
+        <item>景甜</item>
+        <item>杨紫</item>
+        <item>苍井优</item>
+        <item>安以轩</item>
+        <item>林依晨</item>
+        <item>全智贤</item>
+        <item>王珞丹</item>
+        <item>陈乔恩</item>
+        <item>周秀娜</item>
+        <item>谢娜</item>
+        <item>王菲</item>
+        <item>朱茵</item>
+        <item>林志颖</item>
+        <item>郑嘉颖</item>
+        <item>李准基</item>
+        <item>杜淳</item>
+        <item>陈翔</item>
+        <item>唐禹哲</item>
+        <item>林俊杰</item>
+        <item>吴尊</item>
+        <item>汪东城</item>
+        <item>玄彬</item>
+        <item>古天乐</item>
+        <item>张国荣</item>
+        <item>沈昌珉</item>
+        <item>佟大为</item>
+        <item>吴彦祖</item>
+        <item>马天宇</item>
+        <item>EXO</item>
+        <item>俞灏明</item>
+        <item>井柏然</item>
+        <item>炎亚纶</item>
+        <item>付辛博</item>
+        <item>潘玮柏</item>
+        <item>言承旭</item>
+        <item>鹿晗</item>
+        <item>张杰</item>
+        <item>宋承宪</item>
+        <item>曺圭贤</item>
+        <item>辰亦儒</item>
+        <item>林峰</item>
+        <item>孙坚</item>
+        <item>明道</item>
+        <item>冯绍峰</item>
+        <item>乔振宇</item>
+        <item>周渝民</item>
+        <item>吴秀波</item>
+        <item>吴亦凡</item>
+        <item>郑允浩</item>
+        <item>崔始源</item>
+        <item>魏晨</item>
+        <item>金俊秀</item>
+        <item>Rain</item>
+        <item>罗志祥</item>
+        <item>贺军翔</item>
+        <item>五月天</item>
+        <item>黄宗泽</item>
+        <item>何晟铭</item>
+        <item>bigbang</item>
+        <item>金厉旭</item>
+        <item>朴施厚</item>
+        <item>张翰</item>
+        <item>李敏镐</item>
+        <item>金在中</item>
+        <item>柯震东</item>
+        <item>邓超</item>
+        <item>权志龙</item>
+        <item>朴有天</item>
+        <item>彭于晏</item>
+        <item>林宥嘉</item>
+        <item>胡歌</item>
+        <item>金钟仁</item>
+        <item>陈冠希</item>
+        <item>赤西仁</item>
+        <item>李东海</item>
+        <item>金希澈</item>
+        <item>苏有朋</item>
+        <item>陈楚生</item>
+        <item>郭富城</item>
+        <item>朴正洙</item>
+        <item>CNBLUE</item>
+    </string-array>
+    <string-array name="preset_array_qiche">
+        <item>全部</item>
+        <item>名车</item>
+        <item>宝马</item>
+        <item>香车美女</item>
+        <item>汽车图解</item>
+        <item>高清壁纸</item>
+        <item>自主品牌</item>
+        <item>跑车</item>
+        <item>法拉利</item>
+        <item>10万以下的车</item>
+        <item>玛莎拉蒂</item>
+        <item>汽车点评</item>
+        <item>兰博基尼</item>
+        <item>豪车</item>
+    </string-array>
+    <string-array name="preset_array_sheying">
+        <item>全部</item>
+        <item>风景</item>
+        <item>人像</item>
+        <item>婚礼</item>
+        <item>长曝光</item>
+        <item>光绘</item>
+        <item>时尚</item>
+        <item>唯美</item>
+        <item>微距</item>
+        <item>人文纪实</item>
+        <item>写真</item>
+    </string-array>
+    <bool name="config_bool">false</bool>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name="menu_mode">true</bool>
+    <color name="gray">#E5E5E5</color>
+    <color name="rss_channle_list_child_indicator_color">#e9e9e9</color>
+    <color name="rss_channle_list_title_background_color">#99D9317C</color>
+    <color name="rss_channle_list_title_text_color">#ffffff</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_red">#f00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="transparent">#000</color>
+    <declare-styleable name="StaggeredGridView"><attr format="boolean" name="drawSelectorOnTop"/><attr format="integer" name="numColumns"/><attr format="dimension" name="itemMargin"/></declare-styleable>
+    <dimen name="config_prefDialogWidth">320dp</dimen>
+    <dimen name="error_page_woolom_address_text_size">10sp</dimen>
+    <dimen name="rss_channel_list_title_padding">8dip</dimen>
+    <dimen name="rss_channel_list_title_text_size">18sp</dimen>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="default_selected_background_normal">#00000000</drawable>
+    <drawable name="default_selected_background_press">#30000000</drawable>
+    <drawable name="default_selected_background_selected">#30ffffff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="item_selected_background_normal">#00000000</drawable>
+    <drawable name="item_selected_background_press">#ff2682A0</drawable>
+    <drawable name="item_selected_background_selected">#ff33ADD6</drawable>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="tag_d_background_normal">#ffC74B46</drawable>
+    <drawable name="tag_d_background_press">#80C74B46</drawable>
+    <drawable name="tag_d_background_selected">#10000000</drawable>
+    <drawable name="translucent_background">#28000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <fraction name="config_dimBehindFadeDuration">100%</fraction>
+    <item name="Press" type="id">51</item>
+    <item name="actionbar_main_about_us" type="id">1001</item>
+    <item name="actionbar_main_adv" type="id">1007</item>
+    <item name="actionbar_main_official" type="id">1008</item>
+    <item name="actionbar_main_pinglun" type="id">1010</item>
+    <item name="actionbar_main_refresh" type="id">1003</item>
+    <item name="actionbar_main_search" type="id">1009</item>
+    <item name="actionbar_main_shareApk" type="id">1002</item>
+    <item name="actionbar_main_update" type="id">1006</item>
+    <item name="actionbar_preview_copyAddress" type="id">2002</item>
+    <item name="actionbar_preview_refresh" type="id">2004</item>
+    <item name="actionbar_preview_save" type="id">2005</item>
+    <item name="actionbar_preview_shareApk" type="id">2003</item>
+    <item name="actionbar_preview_share_image" type="id">2001</item>
+    <item name="banner00" type="id">0x60</item>
+    <item name="banner01" type="id">0x61</item>
+    <item name="banner02" type="id">0x62</item>
+    <item name="banner03" type="id">0x63</item>
+    <item name="banner04" type="id">0x64</item>
+    <integer name="config_integer">3000</integer>
+    <integer name="config_key_back_for_exit_delay">3000</integer>
+    <integer name="config_rss_loading_progress_anim_duration">100</integer>
+    <integer name="versionCode">404191</integer>
+    <string name="about_msg">&lt;b>搜搜看图&lt;/b> 可以用来查看百度图片提供的海量图片，有美女，有帅哥，也有明星图片，壁纸，汽车，也有更多的搞笑图片，无论是节操掉地的，还是毁三观的，想看什么看什么。
+        这是基于互联网中免费开放给用户的图片数据做数据来源的软件，
+        该软件被许可运行在android系统平台，软件可供免费下载安装和使用，使用过程中所产生的互联网数据费用由使用者这承担。&lt;br>
+        注明：1.由于图片数据较大，使用中会产生大量网络数据流量，建议使用本地wifi网络浏览。&lt;br>
+      2.该软件中的图片数据全部来自于开放的互联网，如有侵权或对您有不利的请及时联系我们。&lt;br>
+      3.该软件中的图片有部分来自百度搜索，并无百度任何法律关系。&lt;br>&lt;br></string>
+    <string name="activity_title">"通知"</string>
+    <string name="add_noti_url2">""</string>
+    <string name="adv_activity_domob_title">"我们的推荐"</string>
+    <string name="adv_activity_umeng_title">"我们的推荐"</string>
+    <string name="apache_license">&lt;b>百度图库 &lt;/b>&lt;br>
+        \u00A9 2014 WOOLOM&lt;br>
+        	[搜搜看图]是开源的互联网图片浏览软件，可供普通用户免费使用，也可供开发者免费学习研究。&lt;br>It is licensed under the Apache License Version 2.0.
+        &lt;br>&lt;br>&lt;b>SlidingMenu &lt;/b>&lt;br>
+		&lt;b>The Apache License Version 2.0&lt;/b>&lt;br>
+		You may obtain a copy of the License at&lt;br>
+		&lt;center>&lt;a href=\'http://www.apache.org/licenses/LICENSE-2.0\'>
+				"http://www.apache.org/licenses/LICENSE-2.0&lt;/a>&lt;/center>&lt;br>
+		Unless required by applicable law or agreed to in writing, 
+		software distributed under the License is distributed on an 
+		\'AS IS\' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, 
+		either express or implied. See the License for the specific 
+		language governing permissions and limitations under the License.</string>
+    <string formatted="false" name="apk_download_url">http://3.cn/3tEgHc</string>
+    <string name="app_name">"搜图图片"</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="back">"返回上一级"</string>
+    <string name="comment">"写反馈意见"</string>
+    <string name="download_normal">"官方建议"</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="error_message">"无法加载数据。请检查你的网络链接。"</string>
+    <string name="exit">"退出程序"</string>
+    <string name="ga_trackingId">@string/google_trackingId</string>
+    <string name="get_noti_url">"http://www.lvyuely.com/api/notify/app/{package}/"</string>
+    <string name="google_AD_TEST_DEVICE_ID">""</string>
+    <string name="google_AD_UNIT_ID">"a15327f94d498db"</string>
+    <string name="google_paly">"https://play.google.com/store/apps/details?id="</string>
+    <string name="google_paly_app_url">"market://details?id=org.lee.android.simples.baidupicture"</string>
+    <string name="google_trackingId">UA-48543944-2</string>
+    <string name="home">"首页"</string>
+    <string name="hot">热词:</string>
+    <string name="input_not_null">"关键字不能为空！"</string>
+    <string name="leftPageTitle">"Google图片"</string>
+    <string name="leftPageTitle2">"内涵图片"</string>
+    <string name="leftPageTitleSohu">"搜狐图片"</string>
+    <string formatted="false" name="leftPageUrl">"https://www.google.com.hk/webhp?hl=zh-CN&amp;tbm=isch&amp;tab=ii"</string>
+    <string formatted="false" name="leftPageUrl2">"http://m.image.so.com/i?src=m_www&amp;q=%E5%86%85%E6%B6%B5"</string>
+    <string name="leftPageUrlSohu">"http://m.sohu.com/c/5933/?_once_=000025_top_tuku_v3"</string>
+    <string name="localInstall">"本地安装"</string>
+    <string name="menu_about">"关于"</string>
+    <string name="menu_account">"账户"</string>
+    <string name="menu_adv">推荐</string>
+    <string name="menu_adv_label">给您推荐应用</string>
+    <string name="menu_clear_cache_failed">"请稍后再试！"</string>
+    <string name="menu_clear_cache_success">"图片缓存已清空！"</string>
+    <string name="menu_copyAddress">"复制图片地址"</string>
+    <string name="menu_licenses">"版权许可"</string>
+    <string name="menu_love">喜欢</string>
+    <string name="menu_love_label">设置为喜欢</string>
+    <string name="menu_pinglun">"给应用打个评分"</string>
+    <string name="menu_refresh">"刷新"</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_save_label">保存到手机</string>
+    <string name="menu_search">"搜索图片"</string>
+    <string name="menu_settings">"关于我们"</string>
+    <string name="menu_share">分享此图</string>
+    <string name="menu_shareApk">"将此应用告诉朋友"</string>
+    <string name="menu_share_footer">"分享自[搜搜看图]"</string>
+    <string name="menu_share_title">"分享到"</string>
+    <string name="menu_switchShow">切换显示</string>
+    <string name="menu_switchShow_label">切换显示方式</string>
+    <string name="menu_update">更新</string>
+    <string name="menu_update_label">有新的版本</string>
+    <string name="message_current">"当前正查看第"</string>
+    <string name="message_not_see_footer">"张未查看照片！"</string>
+    <string name="message_not_see_header">"还有"</string>
+    <string name="message_unit">"张"</string>
+    <string name="no_email">Sorry, I couldn\'t find any e-mail apps on your phone</string>
+    <string name="notify">"重要通知:"</string>
+    <string name="notify_content">"最新2.0版上线，全屏看高清图，图片保存到手机等，建议立即更新！ "</string>
+    <string name="notify_package">"com.woolom"</string>
+    <string name="open_googlepaly_pingfen">"到Google play评分"</string>
+    <string name="open_googlepaly_update">"到Google play升级"</string>
+    <string name="openfromUrl">"专业图片浏览器"</string>
+    <string name="package_kantu">org.lee.android.simples.baidupicture</string>
+    <string name="package_lvyou">com.woolom.android.lvyou</string>
+    <string name="perform">"立即完成"</string>
+    <string name="pre_aboutus">"关于我们"</string>
+    <string name="pre_feedback_summary">"我们很希望你能给个评分！"</string>
+    <string name="pre_feedback_title">"你还可以打个评分！"</string>
+    <string name="pre_key_about">"about"</string>
+    <string name="pre_key_feedback">"feedback"</string>
+    <string name="pre_key_new">"version"</string>
+    <string name="pre_key_update">"update"</string>
+    <string name="pre_key_version">"version"</string>
+    <string name="pre_new_summary">"说明有新的版本需要升级，升级后「新」字自动消失！"</string>
+    <string name="pre_new_title">"如果标题栏显示「新」？"</string>
+    <string name="pre_title">@string/app_name</string>
+    <string name="pre_title_summary">"基于Android系统平台的网络图片浏览器"</string>
+    <string name="pre_update_summary">"我们的最新版本提供更完善的功能，且旧版本会停止服务！"</string>
+    <string name="pre_update_title">"查看最新版本？"</string>
+    <string name="pre_version_title">"版本号"</string>
+    <string name="preset_banner">json/home_banner.json</string>
+    <string name="preset_hot">json/home_hotwords.json</string>
+    <string name="rightPageTitle">"花瓣图片"</string>
+    <string name="rightPageUrl">"http://huaban.com/"</string>
+    <string name="save_failed">"保存失败！"</string>
+    <string name="save_running">"正在保存…"</string>
+    <string name="save_successful">"已保存到手机相册！"</string>
+    <string name="search">"搜图"</string>
+    <string name="search_edit_hit">"搜美女/明星/地名/搞笑/任意图片…"</string>
+    <string name="search_title">"搜索图片"</string>
+    <string name="share">"推荐给朋友"</string>
+    <string name="toast_copy_already">"已复制到粘贴板！"</string>
+    <string name="toast_error">"发生错误了！"</string>
+    <string name="umeng_common_action_cancel">取消</string>
+    <string name="umeng_common_action_continue">继续</string>
+    <string name="umeng_common_action_info_exist">正在下载中.</string>
+    <string name="umeng_common_action_pause">暂停</string>
+    <string name="umeng_common_download_failed">下载失败</string>
+    <string name="umeng_common_download_finish">下载完成，请点击安装</string>
+    <string name="umeng_common_download_notification_prefix">正在下载: </string>
+    <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="umeng_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_common_patch_finish">更新完成，请点击安装</string>
+    <string name="umeng_common_pause_notification_prefix">暂停: </string>
+    <string name="umeng_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="umeng_common_start_download_notification">正在下载应用</string>
+    <string name="umeng_common_start_patch_notification">正在更新安装包</string>
+    <string name="umeng_xp_action_browse">浏览</string>
+    <string name="umeng_xp_action_callphone"/>
+    <string name="umeng_xp_action_download">下载</string>
+    <string name="umeng_xp_action_open">打开</string>
+    <string name="umeng_xp_back">返回</string>
+    <string name="umeng_xp_back_to_top">回到顶部</string>
+    <string name="umeng_xp_dowloadOrNot">是否下载推荐应用？</string>
+    <string name="umeng_xp_dowload_dialog_cinfo">马上拨打</string>
+    <string name="umeng_xp_dowload_dialog_dinfo">马上下载</string>
+    <string name="umeng_xp_failed_loading">加载失败...</string>
+    <string name="umeng_xp_info_banner_deprecated">当前SDK版本不支持Banner样式,请联系客服.</string>
+    <string name="umeng_xp_more">更多精彩推荐</string>
+    <string name="umeng_xp_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_xp_no_browser_tips">请先安装浏览器..</string>
+    <string name="umeng_xp_size">大小</string>
+    <string name="umeng_xp_tip_download_pre">开始下载 </string>
+    <string name="umeng_xp_title_info">精彩推荐</string>
+    <string name="update_now">"立即升级"</string>
+    <string name="versionCode">"v4.0 No.04191"</string>
+    <string name="versionCode_label">"新版本号："</string>
+    <string name="versionContent">"1.全新桌面图标；\n
+2.支持全屏看图，支持自由缩放；\n
+3.支持保存图片到手机；\n
+4.更新界面，更漂亮，优化体验，看图更方便；\n
+5.解决多个错误问题；\n"</string>
+    <string name="versionContent_label">"更新内容："</string>
+    <string name="versionDate">2014-04-19</string>
+    <string name="versionDate_label">"发布日期："</string>
+    <string name="versionGYCode">"GY-04.4190"</string>
+    <string name="versionKINGCode">"K-04419 android-app@king.woolom.com Apr 2014"</string>
+    <string name="versionName">4.0正式版</string>
+    <string name="versionName_label">"版本名称："</string>
+    <string name="versionUpdated">"91.37%"</string>
+    <string name="versionUpdated_label">"用户好评度："</string>
+    <string name="watting">"请稍等…"</string>
+    <string name="woolom_address">"http://www.woolom.com"</string>
+    <string name="woolom_inc">"WOOLOM INC.图"</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/Style.ActionBarStyle</item>
+    </style>
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ic_actionbar_background</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Widget.ActionBar.Subtitle</item>
+    </style>
+    <style name="Style.ActionBarStyle" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/rss_channle_list_title_background_color</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Widget.ActionBar.Subtitle</item>
+    </style>
+    <style name="TextAppearance.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="umeng_xp_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_xp_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_xp_fade_out</item>
+    </style>
+    <style name="umeng_xp_dialog_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_btn_gradient_grey</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="umeng_xp_dialog_cancel">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_selector_cancel</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="umeng_xp_dialog_download">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_selector_download</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="umeng_xp_dialog_download_window" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowAnimationStyle">@style/umeng_xp_dialog_animations</item>
+    </style>
+    <style name="umeng_xp_download_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_download_gradient_grey</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="umeng_xp_grad_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_btn_gradient_grey</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="umeng_xp_more_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_btn_gradient_dark_grey</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+</resources>

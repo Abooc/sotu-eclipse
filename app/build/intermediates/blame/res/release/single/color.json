@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/release/color/text_color_clickable_dark_white.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/color/text_color_clickable_dark_white.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/release/color/text_color_clickable_white_dark.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/color/text_color_clickable_white_dark.xml"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/release/drawable-xxhdpi/i_lvyou.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xxhdpi/i_lvyou.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_menu_play_128.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xxhdpi/ic_menu_play_128.png"
+    }
+]

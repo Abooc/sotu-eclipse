@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "org.lee.android.simples.baidupicture"
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:25.+'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/GoogleAdMobAdsSdk-6.4.1.jar')
+    compile files('libs/com.google.android.Volley.jar')
+    compile files('libs/com.google.libGoogleAnalyticsServices.jar')
+    compile files('libs/org.lee.android.util-v14.0218.1655.jar')
+    compile files('libs/org.lee.java.sdk.baidu-v14.0312.1530.jar')
+    compile files('libs/org.lee.java.util.v4.0322.jar')
+}

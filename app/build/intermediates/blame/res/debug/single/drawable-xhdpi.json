@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_help.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xhdpi/ic_help.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_actionbar_background_green.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xhdpi/ic_actionbar_background_green.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_edit.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xhdpi/ic_menu_edit.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_actionbar_background.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-xhdpi/ic_actionbar_background.png"
+    }
+]

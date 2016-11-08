@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/process"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/descLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#10000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="6dip"
+            android:text="@string/app_name"
+            android:textColor="#96FFFFFF" />
+
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#80CCCCCC" />
+
+        <TextView
+            android:id="@+id/zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/default_item_selector"
+            android:clickable="true"
+            android:padding="6dip"
+            android:textColor="#F0008000"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_notify_info.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_notify_info.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_search.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_update.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_update.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/ads_load_layout.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/ads_load_layout.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_gallery_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_gallery_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/adv_activity.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/adv_activity.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_photo_preview_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_photo_preview_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/sliding_menu_list_child_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/sliding_menu_list_child_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/sliding_menu_list_parent_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/sliding_menu_list_parent_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_home_hotwords.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_home_hotwords.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/preview_sliding_menu_content.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/preview_sliding_menu_content.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/woolom.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/woolom.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_notifylist_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_notifylist_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_error.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_error.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/adv_activity_umeng.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/adv_activity_umeng.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/sliding_menu_footer.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/sliding_menu_footer.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_suggestion.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_suggestion.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/search.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/search.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_photo_preview.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_photo_preview.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_pageindexer.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_pageindexer.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_no_ads.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_no_ads.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_pageindexer_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_pageindexer_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_result_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_result_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/adv_activity_domob.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/adv_activity_domob.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_home_hotwords_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_home_hotwords_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_home_bottom_banner.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_home_bottom_banner.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/browser_bottombar.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/browser_bottombar.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/woolom_wrapper.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/woolom_wrapper.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_home_notifybar.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_home_notifybar.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_preview_frame.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_preview_frame.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_preview_drawer.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_preview_drawer.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/sliding_menu_content.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/sliding_menu_content.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/adwiew.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/adwiew.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/preview_sliding_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/preview_sliding_menu.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/sliding_menu_header.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/sliding_menu_header.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/sliding_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/sliding_menu.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_update_banner.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_update_banner.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_userconfig.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_userconfig.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_home_banner_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_home_banner_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/woolom_container.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/woolom_container.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_gallery.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/loading.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/loading.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_update_banner_item.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_update_banner_item.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/activity_gallery_toastbar.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_gallery_toastbar.xml"
+    }
+]

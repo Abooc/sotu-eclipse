@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:17:1-155:12
+	package
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:18:5-51
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:20:5-34
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:19:5-33
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:17:11-69
+uses-sdk
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:22:5-25:41
+MERGED from [com.android.support:support-v4:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/AndroidManifest.xml:21:5-23:60
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/AndroidManifest.xml:23:9-51
+	android:maxSdkVersion
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:23:9-35
+	android:targetSdkVersion
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:25:9-38
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:24:9-35
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:27:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:28:22-78
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:30:5-79
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:32:5-76
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:32:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:33:5-75
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:33:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:34:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:35:22-76
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:36:5-68
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:36:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:37:5-69
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:37:22-66
+application
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:39:5-153:19
+MERGED from [com.android.support:support-v4:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /Users/dayu/Git/abooc/Sotu/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:43:9-41
+	android:allowBackup
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:41:9-35
+	android:icon
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:42:9-45
+	android:theme
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:44:9-52
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:40:9-58
+activity#org.lee.android.activity.MainActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:45:9-54:20
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:46:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:52:27-74
+activity#org.lee.android.preview.P
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:55:9-58:48
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:58:13-45
+	android:configChanges
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:57:13-63
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:56:13-53
+activity#org.lee.android.preview.PreviewActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:59:9-62:48
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:62:13-45
+	android:configChanges
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:61:13-63
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:60:13-67
+activity#org.lee.android.activity.SearchActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:63:9-66:52
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:66:13-49
+	android:configChanges
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:65:13-63
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:64:13-67
+activity#org.lee.android.activity.UpdateActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:67:9-70:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:69:13-45
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:68:13-67
+activity#org.lee.android.sdk.properties.AboutActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:71:9-74:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:74:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:73:13-48
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:72:13-72
+activity#org.lee.android.activity.NotificationInfoActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:75:9-78:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:77:13-51
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:76:13-77
+activity#org.lee.android.activity.UserConfigActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:79:9-83:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:82:13-34
+	android:icon
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:81:13-54
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:80:13-71
+activity#org.lee.android.activity.BrowserActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:84:9-100:20
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:86:13-48
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:85:13-68
+service#org.lee.android.activity.BackgroundServices
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:103:9-79
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:103:18-76
+activity#com.google.ads.AdActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:118:9-121:39
+	android:noHistory
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:121:13-37
+	android:configChanges
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:120:13-122
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:119:13-53
+activity#org.lee.android.activity.AdvActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:126:9-129:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:128:13-61
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:127:13-64
+activity#org.lee.android.activity.AdvDomobActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:130:9-133:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:132:13-61
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:131:13-69
+activity#org.lee.android.activity.AdvUmengActivity
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:137:13-49
+	android:label
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:136:13-61
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:135:13-69
+meta-data#UMENG_APPKEY
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:140:9-143:21
+	android:value
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:142:13-53
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:141:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:144:9-147:21
+	android:value
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:146:13-34
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:145:13-41
+service#com.umeng.common.net.DownloadingService
+ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:149:9-152:19
+	android:process
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:151:13-50
+	android:name
+		ADDED from /Users/dayu/Git/abooc/Sotu/app/src/main/AndroidManifest.xml:150:13-67

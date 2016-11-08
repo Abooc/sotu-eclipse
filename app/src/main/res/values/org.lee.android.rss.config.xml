@@ -1,0 +1,23 @@
+<resources>
+    
+    <!-- 示例 -->
+    <bool name="config_bool">false</bool>
+    <integer name="config_integer">3000</integer>
+    <!-- Duration for the dim animation behind a dialog.  This may be either
+         a percentage, which is relative to the duration of the enter/open
+         animation of the window being shown that is dimming behind, or it may
+         be an integer for a constant duration. -->
+    <fraction name="config_dimBehindFadeDuration">100%</fraction>
+    <!-- The maximum width we would prefer dialogs to be.  0 if there is no
+         maximum (let them grow as large as the screen).  Actual values are
+         specified for -large and -xlarge configurations. -->
+    <dimen name="config_prefDialogWidth">320dp</dimen>
+    
+    <!-- 应用全局 -->
+    <integer name="config_rss_loading_progress_anim_duration">100</integer><!-- 加载时，loading动画持续时间 -->
+    
+    <!-- 主页面 -->
+    <integer name="config_key_back_for_exit_delay">3000</integer><!-- 连按两次返回键即可退出的延时时间 -->
+    
+    
+</resources>

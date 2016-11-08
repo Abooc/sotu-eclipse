@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lee.android.simples.baidupicture"
+    android:versionCode="404191"
+    android:versionName="v4.0正式版" >
+
+    <uses-sdk
+        android:maxSdkVersion="19"
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="org.lee.android.app.AppApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="org.lee.android.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.lee.android.preview.P"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="org.lee.android.preview.PreviewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="org.lee.android.activity.SearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/search_title" />
+        <!-- <activity -->
+        <!-- android:name="org.lee.android.activity.UpdateActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name="org.lee.android.sdk.properties.AboutActivity"
+            android:label="@string/pre_aboutus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.lee.android.activity.NotificationInfoActivity"
+            android:label="@string/activity_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.lee.android.activity.UserConfigActivity"
+            android:icon="@drawable/ic_menu_play_128"
+            android:label="个性化主页"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.lee.android.activity.BrowserActivity"
+            android:label="@string/openfromUrl"
+            android:screenOrientation="portrait" >
+
+            <!--
+                 <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+                <data android:scheme="file" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <!-- 后台任务部分 -->
+        <service android:name="org.lee.android.activity.BackgroundServices" />
+
+        <!-- //////////////////////////////////////广告部分 ///////////////////////////////////// -->
+        <!-- Google广告 START -->
+        <!--
+             <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+
+
+        <!--
+             <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:noHistory="true" />
+        <!-- Google广告 END -->
+
+
+        <!-- Adv部分 -->
+        <!-- <activity -->
+        <!-- android:name="org.lee.android.activity.AdvActivity" -->
+        <!-- android:label="@string/adv_activity_domob_title" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name="org.lee.android.activity.AdvDomobActivity" -->
+        <!-- android:label="@string/adv_activity_domob_title" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name="org.lee.android.activity.AdvUmengActivity" -->
+        <!-- android:label="@string/adv_activity_umeng_title" -->
+        <!-- android:screenOrientation="portrait" /> -->
+
+
+        <!-- Caution! Do not change this app key. It is only for demo usage.4f83c5d852701564c0000011 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="531889f756240bec3004a864" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" >
+        </meta-data>
+
+        <!-- <service -->
+        <!-- android:name="com.umeng.common.net.DownloadingService" -->
+        <!-- android:process=":DownloadingService" > -->
+        <!-- </service> -->
+    </application>
+
+</manifest>

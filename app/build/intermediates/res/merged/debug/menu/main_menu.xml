@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/actionbar_main_search"
+        android:icon="@drawable/ic_menu_search_holo"
+        android:showAsAction="always"
+        android:title="@string/menu_search"
+        android:titleCondensed="@string/menu_update_label"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@id/actionbar_main_official"
+        android:icon="@drawable/ic_official_img"
+        android:showAsAction="always"
+        android:title="@string/menu_update"
+        android:titleCondensed="@string/menu_update_label"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@id/actionbar_main_update"
+        android:icon="@drawable/ic_update"
+        android:showAsAction="always"
+        android:title="@string/menu_update"
+        android:titleCondensed="@string/menu_update_label"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@id/actionbar_main_adv"
+        android:icon="@drawable/ic_shopper_icon"
+        android:showAsAction="always"
+        android:title="@string/menu_adv"
+        android:titleCondensed="@string/menu_adv_label"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@id/actionbar_main_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/menu_refresh"
+        android:visible="false" >
+    </item>
+    <item
+        android:id="@id/actionbar_main_about_us"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@id/actionbar_main_shareApk"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/menu_shareApk">
+    </item>
+    <item
+        android:id="@id/actionbar_main_pinglun"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/menu_pinglun">
+    </item>
+
+</menu>

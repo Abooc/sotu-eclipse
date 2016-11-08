@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/menu/preview_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/menu/preview_menu.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/menu/search_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/menu/search_menu.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/menu/webview_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/menu/webview_menu.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/menu/update_menu.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/menu/update_menu.xml"
+    }
+]
