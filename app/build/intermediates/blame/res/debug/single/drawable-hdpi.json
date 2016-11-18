@@ -68,12 +68,12 @@
         "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_x_button.png"
     },
     {
-        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_download_dialog_bg.png",
-        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_download_dialog_bg.png"
-    },
-    {
         "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_handler_rc.png",
         "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_handler_rc.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_download_dialog_bg.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_download_dialog_bg.png"
     },
     {
         "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_new_tip_bg.png",
@@ -264,12 +264,12 @@
         "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_detail_bg.png"
     },
     {
-        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_point_selected.png",
-        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_point_selected.png"
-    },
-    {
         "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_drawer_shadow_left.9.png",
         "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/ic_drawer_shadow_left.9.png"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_point_selected.png",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/drawable-hdpi/umeng_xp_point_selected.png"
     },
     {
         "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/drawable-hdpi/umeng_xp_recommend_titile_bg.png",

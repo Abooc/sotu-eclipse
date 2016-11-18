@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:drawableLeft="@drawable/ic_logo_dark"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#FFF" />
+
+        <ImageView
+            android:id="@+id/Grid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="12dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/ic_action_grid" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <TextView
+            android:id="@+id/HomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HomeText">
+
+        </TextView>
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abooc.sotu.BlankFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#555"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tab_like"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/list_selector_background"
+            android:gravity="center"
+            android:text="喜欢❤️"
+            android:textColor="#FFF" />
+
+        <FrameLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#20EEEEEE" />
+
+        <TextView
+            android:id="@+id/tab_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/list_selector_background"
+            android:gravity="center"
+            android:text="已下载"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="CLOUD"
+            android:textSize="60dp" />
+
+        <FrameLayout
+            android:id="@+id/Cloud_TabContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </FrameLayout>
+
+</LinearLayout>

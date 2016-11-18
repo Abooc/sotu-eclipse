@@ -56,12 +56,12 @@
         "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/activity_notifylist_item.xml"
     },
     {
-        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
-        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_main.xml"
-    },
-    {
         "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_error.xml",
         "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_error.xml"
+    },
+    {
+        "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/Users/dayu/Git/abooc/Sotu/app/src/main/res/layout/fragment_main.xml"
     },
     {
         "merged": "/Users/dayu/Git/abooc/Sotu/app/build/intermediates/res/merged/debug/layout/adv_activity_umeng.xml",

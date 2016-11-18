@@ -11,11 +11,11 @@ import java.io.Serializable;
 public class Image implements Serializable {
 
     @SerializedName("id")
-    String id;
+    public String id;
 
-    @SerializedName("abs")
-    String abs;
+//    @SerializedName("abs")
+//    public String abs;
 
-    @SerializedName("download_url")
-    String download_url;
+    @SerializedName("thumbnail_url")
+    public String thumbnail_url;
 }
