@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.abooc.android.widget.ViewHolder;
+import com.abooc.joker.adapter.recyclerview.ViewHolder;
 import com.abooc.sotu.group.GroupActivity;
 import com.abooc.sotu.home.HomeAdapter;
 import com.abooc.sotu.home.HomeContract;

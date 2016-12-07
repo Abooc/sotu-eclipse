@@ -5,8 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.abooc.android.widget.RecyclerViewAdapter;
-import com.abooc.android.widget.ViewHolder;
+import com.abooc.joker.adapter.recyclerview.RecyclerViewAdapter;
+import com.abooc.joker.adapter.recyclerview.ViewHolder;
 import com.abooc.sotu.R;
 import com.abooc.sotu.modle.Image;
 import com.squareup.picasso.Picasso;

@@ -41,5 +41,6 @@ dependencies {
 
     compile 'com.abooc.debug:debug-core:1.1.6'
     compile 'com.abooc.joker:joker-tab:1.0.1'
+    compile 'com.abooc.joker:adapter-4recyclerview:1.0.1'
     compile project(':baidu-image-api')
 }
