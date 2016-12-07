@@ -8,7 +8,7 @@ import java.io.Serializable;
  * Created by dayu on 2016/11/8.
  */
 
-public class SearchResult implements Serializable {
+public class SearchResult {
 
     @SerializedName("gsm")
     public String gsm;

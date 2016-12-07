@@ -1,5 +1,7 @@
 package com.abooc.net;
 
+import com.abooc.util.Debug;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -19,14 +21,7 @@ public class ApiClient {
     File cacheDir;
     public static final String CACHE_DIR = "com.abooc.suto.cache";
 
-    private static ApiClient ourInstance = new ApiClient();
-
-    public static ApiClient getInstance() {
-        return ourInstance;
-    }
-
-    private ApiClient() {
-    }
+    HttpLoggingInterceptor iHttpLoggingInterceptor = new HttpLoggingInterceptor();
 
     public void setCacheDir(File cacheDir) {
         this.cacheDir = cacheDir;
@@ -36,25 +31,30 @@ public class ApiClient {
         OkHttpClient client =
                 new OkHttpClient.Builder()
 //                        .cache(new Cache(cacheDir, 1024 * 1024 * 50))
-//                        .addNetworkInterceptor(interceptor)
-                        .addInterceptor(new Interceptor() {
-                            @Override
-                            public Response intercept(Chain chain) throws IOException {
-                                return null;
-                            }
-                        })
-//                        .addNetworkInterceptor()
+                        .addInterceptor(iHttpLoggingInterceptor)
 //                        .addInterceptor(new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BASIC))
                         .build();
 
         Retrofit.Builder builder = new Retrofit.Builder();
-
-
-        return builder.baseUrl(baseUrl)
+        Retrofit retrofit = builder.baseUrl(baseUrl)
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();
+        return retrofit;
+
+    }
+
+    class HttpLoggingInterceptor implements Interceptor {
+
+        @Override
+        public Response intercept(Chain chain) throws IOException {
+            String requestString = chain.request().toString();
+            Debug.anchor(requestString);
+            Response response = chain.proceed(chain.request());
+//            Debug.anchor(response.body().string());
+            return response;
+        }
 
     }
 

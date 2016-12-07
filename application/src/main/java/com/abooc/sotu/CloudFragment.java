@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.abooc.plugin.tab.TabManager;
+import com.abooc.joker.tab.TabManager;
 import com.abooc.sotu.cloud.DownloadFragment;
 import com.abooc.sotu.cloud.LikeFragment;
 import com.abooc.util.Debug;

@@ -5,6 +5,8 @@ import com.abooc.sotu.modle.SearchResult;
 
 import org.junit.Test;
 
+import java.io.IOException;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -20,11 +22,13 @@ public class ExampleUnitTest {
         BaiduClient.getInstance().getImageList("风景", "全部", 1, 2).enqueue(new Callback<ImageCategory>() {
             @Override
             public void onResponse(Call<ImageCategory> call, Response<ImageCategory> response) {
+                System.out.println("TAG" + " onResponse:");
 
             }
 
             @Override
             public void onFailure(Call<ImageCategory> call, Throwable t) {
+                System.out.println("TAG" + " onFailure:" + t);
 
             }
         });

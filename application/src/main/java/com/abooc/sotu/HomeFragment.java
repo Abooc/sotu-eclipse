@@ -80,7 +80,7 @@ public class HomeFragment extends Fragment implements HomeContract.View {
         mRecyclerView.setLayoutManager(manager);
         mRecyclerView.setAdapter(mHomeAdapter);
 
-//        mPresenter.load();
+        mPresenter.load();
     }
 
 

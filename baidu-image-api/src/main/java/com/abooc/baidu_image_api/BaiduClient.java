@@ -9,7 +9,7 @@ import retrofit2.Call;
 /**
  * Created by dayu on 2016/11/8.
  */
-public class BaiduClient {
+public class BaiduClient extends ApiClient {
 
 
     private Baidu mBaidu;
@@ -21,7 +21,7 @@ public class BaiduClient {
     }
 
     private BaiduClient() {
-        mBaidu = ApiClient.getInstance().getRetrofit().create(Baidu.class);
+        mBaidu = getRetrofit().create(Baidu.class);
     }
 
     /**

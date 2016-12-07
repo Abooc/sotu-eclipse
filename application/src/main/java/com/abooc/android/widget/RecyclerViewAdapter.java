@@ -57,8 +57,8 @@ public abstract class RecyclerViewAdapter<T> extends RecyclerView.Adapter<ViewHo
     }
 
 
-    public static class Collection<T> extends ArrayList<T>{
-        public void update(List<T> array){
+    public static class Collection<T> extends ArrayList<T> {
+        public void update(List<T> array) {
             this.clear();
             this.addAll(array);
         }

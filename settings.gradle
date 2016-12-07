@@ -1,5 +1,4 @@
 //include ':app'
 include ':application'
 include ':baidu-image-api'
-include ':plugin-tab'
 //include ':plugin-preview'

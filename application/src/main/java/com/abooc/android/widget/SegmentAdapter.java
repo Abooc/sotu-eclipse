@@ -3,12 +3,12 @@ package com.abooc.android.widget;
 import java.util.List;
 
 /**
- * PageIncreaseAdapter 支持分页加载
+ * SegmentAdapter 支持分页加载
  * 
  * @author liruiyu
  * @2014-5-21
  */
-public class PageIncreaseAdapter<T> extends IncreaseAdapter<T> {
+public class SegmentAdapter<T> extends IncreaseAdapter<T> {
 
 	/**
 	 * 分页加载监听，
@@ -34,7 +34,7 @@ public class PageIncreaseAdapter<T> extends IncreaseAdapter<T> {
 	private OnNextPageListener iOnNextPageListener;
 	private boolean nextWaiting;
 
-	public PageIncreaseAdapter(List<T> array) {
+	public SegmentAdapter(List<T> array) {
 		super(array);
 	}
 

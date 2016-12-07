@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.abooc.plugin.tab.TabManager;
+import com.abooc.joker.tab.TabManager;
 import com.abooc.util.Debug;
 
 import butterknife.ButterKnife;
@@ -27,8 +27,7 @@ public class SutoMainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Debug.on();
-        Debug.anchor("sdfadafsd");
+        Debug.debugOn();
 
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);

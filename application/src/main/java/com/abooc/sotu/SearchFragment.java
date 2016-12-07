@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import com.abooc.android.widget.ViewHolder;
+import com.abooc.baidu_image_api.test.data.TestTag1;
 import com.abooc.sotu.group.GroupActivity;
 import com.abooc.sotu.home.HomeAdapter;
 import com.abooc.sotu.modle.Image;
@@ -69,7 +70,7 @@ public class SearchFragment extends Fragment implements SearchContract.View, Vie
         mHomeAdapter.setListener(new ViewHolder.OnRecyclerItemClickListener() {
             @Override
             public void onItemClick(RecyclerView recyclerView, View itemView, int position) {
-                GroupActivity.launch(getContext(), "风景");
+                GroupActivity.launch(getContext(), TestTag1.摄影.name());
             }
         });
 
@@ -95,14 +96,27 @@ public class SearchFragment extends Fragment implements SearchContract.View, Vie
         super.onPause();
     }
 
-
     @Override
     public void onClick(View view) {
-
-
-
         String searchWord = mSearchContent.getText().toString().trim();
         mPresenter.load(searchWord);
+    }
+
+    @Override
+    public void showInfo(SearchResult category) {
+
+    }
+
+    @Override
+    public void showImages(List<Image> list) {
+        Debug.anchor(list);
+        mHomeAdapter.getCollection().update(list);
+        mHomeAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void setPresenter(SearchContract.Presenter presenter) {
+
     }
 
     @Override
@@ -117,19 +131,4 @@ public class SearchFragment extends Fragment implements SearchContract.View, Vie
         super.onDestroy();
     }
 
-    @Override
-    public void showInfo(SearchResult category) {
-
-    }
-
-    @Override
-    public void showImages(List<Image> list) {
-        mHomeAdapter.getCollection().update(list);
-        mHomeAdapter.notifyDataSetChanged();
-    }
-
-    @Override
-    public void setPresenter(SearchContract.Presenter presenter) {
-
-    }
 }
